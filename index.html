@@ -26,13 +26,47 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Step 1</h1>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                            <form>
+                                <p>What would you like to work on today?</p>
+                                <input type="checkbox" id="lowerBody" name="lowerBody" value="glutes">
+                                <label for="lowerBody">Glutes</label><br>
+                                <input type="checkbox" id="lowerBody" name="lowerBody" value="quads">
+                                <label for="lowerBody">Quads</label><br>
+                                <input type="checkbox" id="lowerBody" name="lowerBody" value="hamstrings">
+                                <label for="lowerBody">Hamstrings</label><br>
+                                <input type="checkbox" id="upperBody" name="upperBody" value="shoulders">
+                                <label for="upperBody">Shoulders</label><br>
+                                <input type="checkbox" id="upperBody" name="upperBody" value="chest">
+                                <label for="upperBody">Chest</label><br>
+                                <input type="checkbox" id="upperBody" name="upperBody" value="triceps">
+                                <label for="upperBody">Triceps</label><br>
+                                <input type="checkbox" id="upperBody" name="upperBody" value="biceps">
+                                <label for="upperBody">Biceps</label><br>
+                                <input type="checkbox" id="back" name="back" value="back">
+                                <label for="back">Back</label><br>
+                                <input type="checkbox" id="core" name="core" value="core">
+                                <label for="core">Core</label><br>
+                                <input type="submit" value="Submit">
+                            </form>
+                            </p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">Step 2</h1>
-                            <p class="card-text">Step instructions will go here</p>
+                            <p class="card-text"></p>
+                            <form>
+                                <label for="equipment">Would you like to generate a workout with equipment, dumbbells
+                                    only, or bodyweight only?</label>
+                                <select name="equipmentDropdown" id="equipment">
+                                    <option value="" disabled selected>Select your option</option>
+                                    <option value="equipment">Equipment</option>
+                                    <option value="dumbbell">Dumbbells Only</option>
+                                    <option value="bodyweight">Bodyweight Only</option>
+                                </select>
+                                <input type="submit" value="Submit">
+                            </form>
                         </div>
                     </div>
                 </div>
