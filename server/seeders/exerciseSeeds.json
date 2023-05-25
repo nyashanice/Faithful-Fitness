@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Back extension",
+    "muscle": "glutes",
+    "instructions": [
+      "1. adjust pad to just below your hip bone",
+      "2. turn feet out slightly",
+      "3. keep a slight bend in your knees to target glutes",
+      "4. round your back and use a short range of motion"
+    ],
+    "sets": 3,
+    "reps": "8-12",
+    "bodyPart": "glutes"
+  },
+  {
+    "title": "KAS glute bridge",
+    "muscle": "glutes",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12",
+    "bodyPart": "glutes"
+  },
+    {
+      "title": "RDL (glute biased)",
+      "muscle": "glutes",
+      "instructions": [
+        "1. place a moderate bend in your knees and brace core",
+        "2. drive back with your hips, tuck your chin, and keep the weight close to your body",
+        "3. once you can't drive your hips back any further, come back up"
+      ],
+      "sets": 3,
+      "reps": "8-12",
+      "bodyPart": "glutes"
+    },
+      {
+        "title": "Step ups (glute biased)",
+        "muscle": "glutes",
+        "instructions": [
+          "1. hinge forward slightly, hold weight in hand opposite of working leg, and hold onto something for balance if needed",
+          "2. drive through front foot (back leg is only for support)",
+          "3. hinge back, tap back foot down, then come back up"
+        ],
+        "sets": 3,
+        "reps": "8-12",
+        "bodyPart": "glutes"
+      },
+        {
+          "title": "KAS glute bridge",
+          "muscle": "back",
+          "instructions": [
+            "1. keep a neutral spine and lower hips into a half squat position",
+            "2. use core and back to bring one arm up at a time"
+          ],
+          "sets": 3,
+          "reps": "8-12",
+          "bodyPart": "back"
+        }
+]
