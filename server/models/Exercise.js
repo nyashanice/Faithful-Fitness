@@ -22,14 +22,8 @@ const exerciseSchema = new Schema({
   },
   reps: {
     type: String,
-    required: false,
-  },
-  bodyPart: [
-    {
-      type: Schema.Types.String,
-      ref: "bodyPart",
-    },
-  ],
+    required: true,
+  }
   //   add gifs/videos of exercise
 });
 

@@ -9,8 +9,7 @@
       "4. round your back and use a short range of motion"
     ],
     "sets": 3,
-    "reps": "8-12",
-    "bodyPart": "glutes"
+    "reps": "8-12"
   },
   {
     "title": "KAS glute bridge",
@@ -21,8 +20,7 @@
       "3. go down until you see your knees start to move back towards you"
     ],
     "sets": 3,
-    "reps": "8-12",
-    "bodyPart": "glutes"
+    "reps": "8-12"
   },
     {
       "title": "RDL (glute biased)",
@@ -33,8 +31,7 @@
         "3. once you can't drive your hips back any further, come back up"
       ],
       "sets": 3,
-      "reps": "8-12",
-      "bodyPart": "glutes"
+      "reps": "8-12"
     },
       {
         "title": "Step ups (glute biased)",
@@ -45,8 +42,7 @@
           "3. hinge back, tap back foot down, then come back up"
         ],
         "sets": 3,
-        "reps": "8-12",
-        "bodyPart": "glutes"
+        "reps": "8-12"
       },
         {
           "title": "Gorilla rows",
@@ -56,7 +52,6 @@
             "2. use core and back to bring one arm up at a time"
           ],
           "sets": 3,
-          "reps": "8-12",
-          "bodyPart": "back"
+          "reps": "8-12"
         }
 ]

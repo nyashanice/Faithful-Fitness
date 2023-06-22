@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/pages/Home';
-import Workout from './components/pages/Workout';
+import Home from './pages/Home';
+import Workout from './pages/Workout';
 
 const client = new ApolloClient({
   uri: "http://localhost:3001/graphql",

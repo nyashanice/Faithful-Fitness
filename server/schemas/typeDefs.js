@@ -8,7 +8,6 @@ const typeDefs = gql`
     instructions: [String]!
     sets: Number!
     reps: String!
-    bodyPart: String!
   }
 
   type Query {
@@ -23,7 +22,6 @@ const typeDefs = gql`
       instructions: [String]!
       sets: Number!
       reps: String!
-      bodyPart: String!
     ): Exercise
     removeExercise(exerciseId: ID!): Exercise
   }

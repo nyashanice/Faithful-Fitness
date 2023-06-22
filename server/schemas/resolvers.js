@@ -14,7 +14,7 @@ const resolvers = {
   Mutation: {
     addExercise: async (
       parent,
-      { title, muscle, instructions, sets, reps, bodyPart }
+      { title, muscle, instructions, sets, reps }
     ) => {
       return Exercise.create({
         title,
@@ -22,7 +22,6 @@ const resolvers = {
         instructions,
         sets,
         reps,
-        bodyPart,
       });
     },
     removeExercise: async (parent, { exerciseId }) => {
