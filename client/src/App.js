@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Workout from './pages/Workout';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const client = new ApolloClient({
   uri: "http://localhost:3001/graphql",
