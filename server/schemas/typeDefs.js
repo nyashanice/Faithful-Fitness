@@ -6,7 +6,7 @@ const typeDefs = gql`
     title: String!
     muscle: String!
     instructions: [String]!
-    sets: Number!
+    sets: Int!
     reps: String!
   }
 
@@ -20,7 +20,7 @@ const typeDefs = gql`
       title: String!
       muscle: String!
       instructions: [String]!
-      sets: Number!
+      sets: Int!
       reps: String!
     ): Exercise
     removeExercise(exerciseId: ID!): Exercise

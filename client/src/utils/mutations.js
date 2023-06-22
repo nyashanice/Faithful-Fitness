@@ -5,7 +5,7 @@ export const ADD_EXERCISE = gql`
     $title: String!
     $muscle: String!
     $instructions: [String]!
-    $sets: Number!
+    $sets: Int!
     $reps: String!
   ) {
     addExercise(
