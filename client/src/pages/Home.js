@@ -18,11 +18,11 @@ export default function Home() {
           <img src="/images/gym3.jpg" alt="" className="home-img" />
         </div>
         <div className="overlay">
-          Embrace the Journey, Unleash Your Strength
+          Embrace the Journey,<br/> Unleash Your Strength
         </div>
       </div>
       <div>
-        <div className="text-center">How to use</div>
+        <div className="text-center home-header">How to use</div>
         <div className="d-flex flex-row p-2">
           <div className="d-flex flex-row align-items-center">
             <div className="home-num">1</div>

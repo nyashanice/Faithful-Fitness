@@ -11,13 +11,26 @@
 
 .overlay {
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5D2EFF;
+    font-family: 'Bungee Inline', cursive;
+    width: 100%;
+    text-shadow:2px 2px black;
+}
+
+.home-header {
+    font-family: 'DM Serif Display', serif;
 }
 
 .home-num {
     font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home-steps {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .home-btn {
@@ -36,4 +49,6 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow: 2px 2px black;
 }
