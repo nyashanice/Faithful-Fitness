@@ -52,3 +52,7 @@ position: relative;
     font-family: 'Bungee Inline', cursive;
     text-shadow: 2px 2px black;
 }
+
+.home-btn-txt:hover {
+    font-size: 80%;
+}
