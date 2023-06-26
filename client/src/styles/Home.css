@@ -20,6 +20,20 @@
     font-size: 100px;
 }
 
-.home-steps {
-    
+.home-btn {
+display: block;
+height: 100px;
+background-color: white;
+background-size: 200px;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+}
+
+.home-btn-txt {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }

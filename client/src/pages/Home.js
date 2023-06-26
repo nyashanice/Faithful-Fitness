@@ -1,5 +1,12 @@
 import React from "react";
 import "../styles/Home.css";
+import { Link } from "react-router-dom";
+
+const styles = {
+  button: {
+    backgroundImage: "url(/images/kettlebell.png)",
+  },
+};
 
 export default function Home() {
   return (
@@ -55,6 +62,14 @@ export default function Home() {
             <div className="home-num">4</div>
           </div>
           <div></div>
+        </div>
+        <div className="text-center home-btn" style={styles.button}>
+          <Link to="/workout">
+            <div className="home-btn-txt">
+              GET <br />
+              STARTED
+            </div>
+          </Link>
         </div>
       </div>
     </div>
