@@ -63,6 +63,7 @@ export default function Home() {
           </div>
           <div></div>
         </div>
+        </div>
         <div className="text-center home-btn" style={styles.button}>
           <Link to="/workout">
             <div className="home-btn-txt">
@@ -71,7 +72,6 @@ export default function Home() {
             </div>
           </Link>
         </div>
-      </div>
     </div>
   );
 }
