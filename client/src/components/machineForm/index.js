@@ -1,11 +1,8 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import { useState } from "react";
 import Button from "react-bootstrap/Button";
 
-export default function Machine() {
-  const [validated, setValidated] = useState(false);
-  const [equipment, setEquipment] = useState();
+export default function Machine({equipment, setEquipment, validated, setValidated}) {
 
   const handleSubmit = (event) => {
     if (equipment === undefined) {

@@ -1,12 +1,8 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import { useState } from "react";
 import Button from "react-bootstrap/Button";
 
-export default function Category() {
-  const [validated, setValidated] = useState(false);
-  const [workout, setWorkout] = useState();
-
+export default function Category({workout, setWorkout, validated, setValidated}) {
   const handleSubmit = (event) => {
     if (workout === undefined) {
       event.preventDefault();
@@ -71,7 +67,7 @@ export default function Category() {
             <div className="text-center">
               <Button type="submit">NEXT</Button>
             </div>
-          </Form> 
+          </Form>
         </div>
       </div>
     </div>
