@@ -7,13 +7,14 @@ export default function Category() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
-    const radio = event.currentTarget;
-    if (radio.checkValidity() === false) {
+    const categoryRadio = event.currentTarget;
+    if (categoryRadio.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
     }
 
     setValidated(true);
+    console.log(categoryRadio);
   };
 
   return (
