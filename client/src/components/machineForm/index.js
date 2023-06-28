@@ -8,11 +8,10 @@ export default function Machine() {
   const [equipment, setEquipment] = useState();
 
   const handleSubmit = (event) => {
-    console.log(equipment);
     if (equipment === undefined) {
       event.preventDefault();
       event.stopPropagation();
-      console.log("must choose");
+      console.log("Must choose equipment.");
     }
 
     setValidated(true);
@@ -28,7 +27,6 @@ export default function Machine() {
         </div>
         <div className="p-2">
           <Form
-            noValidate
             validated={validated}
             onSubmit={handleSubmit}
             equipment={equipment}
