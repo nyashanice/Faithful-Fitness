@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import Category from "../components/categoryForm";
 import Machine from "../components/machineForm";
+import { useQuery } from "@apollo/client";
+import { QUERY_EXERCISES } from "../utils/queries";
 
 export default function Workout() {
   const [workout, setWorkout] = useState();
   const [equipment, setEquipment] = useState();
   const [validated, setValidated] = useState(false);
+  const { data } = useQuery(QUERY_EXERCISES);
+  const exercises = data?.exercises || [];
+
+  console.log(exercises);
 
   if (validated === true) {
     const workoutType = workout;
@@ -14,7 +20,6 @@ export default function Workout() {
     console.log(equipment);
     console.log(workoutType, equipmentType);
   }
-
 
   return (
     <div>

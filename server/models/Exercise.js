@@ -10,6 +10,10 @@ const exerciseSchema = new Schema({
     type: String,
     required: true,
   },
+  equipment: {
+    type: String,
+    required: true,
+  },
   instructions: {
     // array of strings
     type: [String],
@@ -23,7 +27,7 @@ const exerciseSchema = new Schema({
   reps: {
     type: String,
     required: true,
-  }
+  },
   //   add gifs/videos of exercise
 });
 

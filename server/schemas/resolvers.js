@@ -14,11 +14,12 @@ const resolvers = {
   Mutation: {
     addExercise: async (
       parent,
-      { title, muscle, instructions, sets, reps }
+      { title, muscle, equipment, instructions, sets, reps }
     ) => {
       return Exercise.create({
         title,
         muscle,
+        equipment,
         instructions,
         sets,
         reps,

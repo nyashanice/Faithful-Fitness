@@ -5,6 +5,7 @@ const typeDefs = gql`
     _id: ID
     title: String!
     muscle: String!
+    equipment: String!
     instructions: [String]!
     sets: Int!
     reps: String!
@@ -19,6 +20,7 @@ const typeDefs = gql`
     addExercise(
       title: String!
       muscle: String!
+      equipment: String!
       instructions: [String]!
       sets: Int!
       reps: String!
