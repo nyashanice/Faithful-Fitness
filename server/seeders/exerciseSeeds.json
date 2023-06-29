@@ -25,21 +25,9 @@
     "reps": "8-12"
   },
   {
-    "title": "RDL (glute biased)",
+    "title": "RDLs (glute biased)",
     "muscle": "glutes",
     "equipment": "Dumbbell only",
-    "instructions": [
-      "1. place a moderate bend in your knees and brace core",
-      "2. drive back with your hips, tuck your chin, and keep the weight close to your body",
-      "3. once you can't drive your hips back any further, come back up"
-    ],
-    "sets": 3,
-    "reps": "8-12"
-  },
-  {
-    "title": "RDL (glute biased)",
-    "muscle": "glutes",
-    "equipment": "Equipment",
     "instructions": [
       "1. place a moderate bend in your knees and brace core",
       "2. drive back with your hips, tuck your chin, and keep the weight close to your body",
@@ -52,18 +40,6 @@
     "title": "Step ups (glute biased)",
     "muscle": "glutes",
     "equipment": "Dumbbell only",
-    "instructions": [
-      "1. hinge forward slightly, hold weight in hand opposite of working leg, and hold onto something for balance if needed",
-      "2. drive through front foot (back leg is only for support)",
-      "3. hinge back, tap back foot down, then come back up"
-    ],
-    "sets": 3,
-    "reps": "8-12"
-  },
-  {
-    "title": "Step ups (glute biased)",
-    "muscle": "glutes",
-    "equipment": "Equipment",
     "instructions": [
       "1. hinge forward slightly, hold weight in hand opposite of working leg, and hold onto something for balance if needed",
       "2. drive through front foot (back leg is only for support)",
@@ -84,7 +60,7 @@
     "reps": "8-12"
   },
   {
-    "title": "Flat dumbbell bench press",
+    "title": "Flat DB bench press",
     "muscle": "chest",
     "equipment": "Dumbbell only",
     "instructions": [
@@ -95,7 +71,7 @@
     "reps": "8-12"
   },
   {
-    "title": "Decline dumbbell bench press",
+    "title": "Decline DB bench press",
     "muscle": "chest",
     "equipment": "Dumbbell only",
     "instructions": [
@@ -117,7 +93,7 @@
     "reps": "8-12"
   },
   {
-    "title": "DB shoulder press",
+    "title": "Seated DB shoulder press",
     "muscle": "shoulders",
     "equipment": "Dumbbell only",
     "instructions": [
@@ -128,7 +104,7 @@
     "reps": "8-12"
   },
   {
-    "title": "Dips",
+    "title": "Tricep dips",
     "muscle": "triceps",
     "equipment": "Equipment",
     "instructions": [
@@ -183,7 +159,7 @@
     "reps": "8-12"
   },
   {
-    "title": "RDLs",
+    "title": "RDLs (hamstring biased)",
     "muscle": "hamstrings",
     "equipment": "Dumbbell only",
     "instructions": [
@@ -266,6 +242,294 @@
     "instructions": [
       "1. keep a neutral spine and lower hips into a half squat position",
       "2. use core and back to bring one arm up at a time"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Elevated reverse lunges",
+    "muscle": "glutes",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Bulgarian split squat",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Banded glute bridge",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Bent over row",
+    "muscle": "back",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Pull ups",
+    "muscle": "back",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Seated row",
+    "muscle": "back",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Single arm row",
+    "muscle": "back",
+    "equipment": "Dumbbell only",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Chest supported row",
+    "muscle": "back",
+    "equipment": "Dumbbell only",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Cable curl",
+    "muscle": "biceps",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Dumbbell curl",
+    "muscle": "biceps",
+    "equipment": "Dumbbell only",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Chin ups",
+    "muscle": "biceps",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Reverse grip barbell row",
+    "muscle": "biceps",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Bench dips",
+    "muscle": "triceps",
+    "equipment": "Bodyweight",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Push ups",
+    "muscle": "triceps",
+    "equipment": "Bodyweight",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Barbell bench press",
+    "muscle": "chest",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Incline bench press",
+    "muscle": "chest",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Machine chest press",
+    "muscle": "chest",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Dips (chest biased)",
+    "muscle": "chest",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Chest fly",
+    "muscle": "chest",
+    "equipment": "Dumbbell only",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Machine chest fly",
+    "muscle": "chest",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Seated barbell shoulder press",
+    "muscle": "shoulders",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Upright row",
+    "muscle": "shoulders",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Arnold press",
+    "muscle": "shoulders",
+    "equipment": "Dumbbell only",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Front raises",
+    "muscle": "shoulders",
+    "equipment": "Dumbbell only",
+    "instructions": [
+      "1. place feet hip distance apart and rest back on bench",
+      "2. as you come up, knees should be at a 90 degree angle and chin should be tucked in",
+      "3. go down until you see your knees start to move back towards you"
     ],
     "sets": 3,
     "reps": "8-12"
