@@ -8,18 +8,50 @@ export default function Workout() {
   const [workout, setWorkout] = useState();
   const [equipment, setEquipment] = useState();
   const [validated, setValidated] = useState(false);
+  // const [customWorkout, setCustomWorkout] = useState([]);
   const { data } = useQuery(QUERY_EXERCISES);
   const exercises = data?.exercises || [];
+  let chosenWorkout = workout;
 
-  console.log(exercises);
+  // if (validated === true) {
+  //   chosenWorkout = workout;
+  //   const equipmentType = equipment;
+  //   console.log(workout);
+  //   console.log(equipment);
+  //   console.log(chosenWorkout, equipmentType);
+  // }
 
-  if (validated === true) {
-    const workoutType = workout;
-    const equipmentType = equipment;
-    console.log(workout);
-    console.log(equipment);
-    console.log(workoutType, equipmentType);
-  }
+  console.log(chosenWorkout);
+
+  const createWorkout = (chosenWorkout, exercises) => {
+    if (chosenWorkout === "Push") {
+      return exercises.filter(
+        (exercise) =>
+          exercise.muscle === "chest" ||
+          exercise.muscle === "shoulders" ||
+          exercise.muscle === "triceps"
+      );
+    } else if (chosenWorkout === "Pull") {
+      return exercises.filter(
+        (exercise) => exercise.muscle === "back" || exercise.muscle === "biceps"
+      );
+    } else if (chosenWorkout === "Hamstrings and glutes") {
+      return exercises.filter(
+        (exercise) =>
+          exercise.muscle === "hamstrings" || exercise.muscle === "glutes"
+      );
+    } else if (chosenWorkout === "Quads and glutes") {
+      return exercises.filter(
+        (exercise) =>
+          exercise.muscle === "quads" || exercise.muscle === "glutes"
+      );
+    } else if (chosenWorkout === "Glutes") {
+      return exercises.filter((exercise) => exercise.muscle === "glutes");
+    }
+  };
+
+  const workoutCategory = createWorkout(chosenWorkout, exercises);
+  console.log(workoutCategory);
 
   return (
     <div>

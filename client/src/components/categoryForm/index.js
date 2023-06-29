@@ -11,7 +11,7 @@ export default function Category({workout, setWorkout, validated, setValidated})
     }
 
     setValidated(true);
-    console.log(workout);
+    // console.log(workout);
   };
 
   return (
