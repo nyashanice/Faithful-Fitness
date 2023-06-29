@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Category from "../components/categoryForm";
-import Machine from "../components/machineForm";
+import FormChoices from "../components/Form";
 import { useQuery } from "@apollo/client";
 import { QUERY_EXERCISES } from "../utils/queries";
 
@@ -15,6 +14,14 @@ export default function Workout() {
   let chosenWorkout = workout;
   // whether user is using gym equipment, dumbbell only, or bodyweight
   let chosenEquipment = equipment;
+
+const handleFormSubmit = (submittedData) => {
+  // Perform additional logic using the form submission data
+  // For example: update state, make an API call, etc.
+  setWorkout(submittedData.workout);
+  setEquipment(submittedData.equipment);
+  setValidated(true);
+};
 
   // filters through database of exercises to find those that match the selected category
   const filterWorkout = (chosenWorkout, exercises) => {
@@ -89,17 +96,13 @@ export default function Workout() {
 
   return (
     <div>
-      <Category
+      <FormChoices
         workout={workout}
         setWorkout={setWorkout}
         validated={validated}
         setValidated={setValidated}
-      />
-      <Machine
         equipment={equipment}
         setEquipment={setEquipment}
-        validated={validated}
-        setValidated={setValidated}
       />
       <div>
         <h1 className="text-center">Custom Workout</h1>
