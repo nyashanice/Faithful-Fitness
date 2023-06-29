@@ -12,6 +12,7 @@ export default function Workout() {
   const { data } = useQuery(QUERY_EXERCISES);
   const exercises = data?.exercises || [];
   let chosenWorkout = workout;
+  let chosenEquipment = equipment;
 
   // if (validated === true) {
   //   chosenWorkout = workout;
@@ -52,6 +53,27 @@ export default function Workout() {
 
   const workoutCategory = createWorkout(chosenWorkout, exercises);
   console.log(workoutCategory);
+
+  const createEquipment = (workoutCategory, chosenEquipment) => {
+    if (chosenEquipment === "Equipment") {
+      return workoutCategory.filter(
+        (exercise) =>
+          exercise.equipment === "Equipment" ||
+          exercise.equipment === "Dumbbell only"
+      );
+    } else if (chosenEquipment === "Dumbbell only") {
+      return workoutCategory.filter(
+        (exercise) => exercise.equipment === "Dumbbell only"
+      );
+    } else if (chosenEquipment === "Bodyweight") {
+      return workoutCategory.filter(
+        (exercise) => exercise.equipment === "Bodyweight"
+      );
+    }
+  };
+
+  const customWorkoutArr = createEquipment(workoutCategory, chosenEquipment);
+  console.log(customWorkoutArr);
 
   return (
     <div>
