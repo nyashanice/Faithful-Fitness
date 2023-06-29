@@ -11,20 +11,13 @@ export default function Workout() {
   // const [customWorkout, setCustomWorkout] = useState([]);
   const { data } = useQuery(QUERY_EXERCISES);
   const exercises = data?.exercises || [];
+  // workout that user chooses to do
   let chosenWorkout = workout;
+  // whether user is using gym equipment, dumbbell only, or bodyweight
   let chosenEquipment = equipment;
 
-  // if (validated === true) {
-  //   chosenWorkout = workout;
-  //   const equipmentType = equipment;
-  //   console.log(workout);
-  //   console.log(equipment);
-  //   console.log(chosenWorkout, equipmentType);
-  // }
-
-  console.log(chosenWorkout);
-
-  const createWorkout = (chosenWorkout, exercises) => {
+  // filters through database of exercises to find those that match the selected category
+  const filterWorkout = (chosenWorkout, exercises) => {
     if (chosenWorkout === "Push") {
       return exercises.filter(
         (exercise) =>
@@ -51,10 +44,11 @@ export default function Workout() {
     }
   };
 
-  const workoutCategory = createWorkout(chosenWorkout, exercises);
+  const workoutCategory = filterWorkout(chosenWorkout, exercises);
   console.log(workoutCategory);
 
-  const createEquipment = (workoutCategory, chosenEquipment) => {
+  // filters through new array of exercises to find those that use the correct equipment
+  const filterEquipment = (workoutCategory, chosenEquipment) => {
     if (chosenEquipment === "Equipment") {
       return workoutCategory.filter(
         (exercise) =>
@@ -72,7 +66,18 @@ export default function Workout() {
     }
   };
 
-  const customWorkoutArr = createEquipment(workoutCategory, chosenEquipment);
+  const workoutEquipment = filterEquipment(workoutCategory, chosenEquipment);
+  console.log(workoutEquipment);
+
+  // shuffles through new array and slices so results are different each time
+  function randomizeExercises(exercises, count) {
+    // Shuffle the array
+    const shuffledExercises = exercises.sort(() => Math.random() - 0.5);
+    // Return a certain amount of results
+    return shuffledExercises.slice(0, count);
+  }
+
+  const customWorkoutArr = randomizeExercises(workoutEquipment, 5);
   console.log(customWorkoutArr);
 
   return (
