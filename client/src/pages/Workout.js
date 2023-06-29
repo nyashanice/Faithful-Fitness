@@ -7,21 +7,17 @@ export default function Workout() {
   const [workout, setWorkout] = useState();
   const [equipment, setEquipment] = useState();
   const [validated, setValidated] = useState(false);
-  // const [customWorkout, setCustomWorkout] = useState([]);
   const { data } = useQuery(QUERY_EXERCISES);
   const exercises = data?.exercises || [];
-  // workout that user chooses to do
-  let chosenWorkout = workout;
-  // whether user is using gym equipment, dumbbell only, or bodyweight
-  let chosenEquipment = equipment;
 
-const handleFormSubmit = (submittedData) => {
-  // Perform additional logic using the form submission data
-  // For example: update state, make an API call, etc.
-  setWorkout(submittedData.workout);
-  setEquipment(submittedData.equipment);
-  setValidated(true);
-};
+  const handleFormSubmit = (submittedData) => {
+    // Perform additional logic using the form submission data
+    // For example: update state, make an API call, etc.
+    setWorkout(submittedData.workout);
+    setEquipment(submittedData.equipment);
+    console.log(workout, equipment);
+    setValidated(true);
+  };
 
   // filters through database of exercises to find those that match the selected category
   const filterWorkout = (chosenWorkout, exercises) => {
@@ -51,8 +47,8 @@ const handleFormSubmit = (submittedData) => {
     }
   };
 
-  const workoutCategory = filterWorkout(chosenWorkout, exercises);
-  console.log(workoutCategory);
+  // const workoutCategory = filterWorkout(chosenWorkout, exercises);
+  // console.log(workoutCategory);
 
   // filters through new array of exercises to find those that use the correct equipment
   const filterEquipment = (workoutCategory, chosenEquipment) => {
@@ -73,8 +69,8 @@ const handleFormSubmit = (submittedData) => {
     }
   };
 
-  const workoutEquipment = filterEquipment(workoutCategory, chosenEquipment);
-  console.log(workoutEquipment);
+  // const workoutEquipment = filterEquipment(workoutCategory, chosenEquipment);
+  // console.log(workoutEquipment);
 
   // shuffles through new array and slices so results are different each time
   function randomizeExercises(workoutEquipment, count) {
@@ -91,26 +87,26 @@ const handleFormSubmit = (submittedData) => {
     }
   }
 
-  const customWorkoutArr = randomizeExercises(workoutEquipment, 5);
-  console.log(customWorkoutArr);
+  // const customWorkoutArr = randomizeExercises(workoutEquipment, 5);
+  // console.log(customWorkoutArr);
 
   return (
     <div>
       <FormChoices
+        onFormSubmit={handleFormSubmit}
+        validated={validated}
         workout={workout}
         setWorkout={setWorkout}
-        validated={validated}
-        setValidated={setValidated}
         equipment={equipment}
         setEquipment={setEquipment}
       />
       <div>
         <h1 className="text-center">Custom Workout</h1>
-        <ul>
+        {/* <ul>
           {customWorkoutArr.map((exercise) => (
             <li key={exercise.title}>{exercise.title}</li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
