@@ -217,8 +217,52 @@
   },
   {
     "title": "Leg extension",
-    "muscle": "back",
+    "muscle": "quads",
     "equipment": "Equipment",
+    "instructions": [
+      "1. keep a neutral spine and lower hips into a half squat position",
+      "2. use core and back to bring one arm up at a time"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Elevated goblet squats",
+    "muscle": "quads",
+    "equipment": "Equipment",
+    "instructions": [
+      "1. keep a neutral spine and lower hips into a half squat position",
+      "2. use core and back to bring one arm up at a time"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Front lunges",
+    "muscle": "quads",
+    "equipment": "Bodyweight",
+    "instructions": [
+      "1. keep a neutral spine and lower hips into a half squat position",
+      "2. use core and back to bring one arm up at a time"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Closed stance squats",
+    "muscle": "quads",
+    "equipment": "Bodyweight",
+    "instructions": [
+      "1. keep a neutral spine and lower hips into a half squat position",
+      "2. use core and back to bring one arm up at a time"
+    ],
+    "sets": 3,
+    "reps": "8-12"
+  },
+  {
+    "title": "Split squats",
+    "muscle": "quads",
+    "equipment": "Bodyweight",
     "instructions": [
       "1. keep a neutral spine and lower hips into a half squat position",
       "2. use core and back to bring one arm up at a time"

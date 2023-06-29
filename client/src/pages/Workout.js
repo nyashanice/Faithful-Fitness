@@ -70,11 +70,18 @@ export default function Workout() {
   console.log(workoutEquipment);
 
   // shuffles through new array and slices so results are different each time
-  function randomizeExercises(exercises, count) {
-    // Shuffle the array
-    const shuffledExercises = exercises.sort(() => Math.random() - 0.5);
-    // Return a certain amount of results
-    return shuffledExercises.slice(0, count);
+  function randomizeExercises(workoutEquipment, count) {
+    if (!workoutEquipment || workoutEquipment.length === 0) {
+      // Handle the case where exercises is undefined or empty
+      return [];
+    } else {
+      // Shuffle the array
+      const shuffledExercises = workoutEquipment.sort(
+        () => Math.random() - 0.5
+      );
+      // Return a certain amount of results
+      return shuffledExercises.slice(0, count);
+    }
   }
 
   const customWorkoutArr = randomizeExercises(workoutEquipment, 5);
@@ -94,12 +101,14 @@ export default function Workout() {
         validated={validated}
         setValidated={setValidated}
       />
-      {/* Access console log from category component */}
-      {/* Access console log from machine component */}
-      {/* Filter through db to find workouts that are from the right category */}
-      {/* Filter through that list to find workouts that use the right equipment */}
-      {/* Choose 5 random exercises */}
-      {/* Display info */}
+      <div>
+        <h1 className="text-center">Custom Workout</h1>
+        <ul>
+          {customWorkoutArr.map((exercise) => (
+            <li key={exercise.title}>{exercise.title}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
