@@ -10,6 +10,7 @@ export default function Workout() {
   const [customWorkoutArr, setCustomWorkoutArr] = useState([]);
   const { data } = useQuery(QUERY_EXERCISES);
 
+  // takes user choices from FormChoices props and stores them in state variables
   const handleFormSubmit = (submittedData) => {
     setWorkout(submittedData.workout);
     setEquipment(submittedData.equipment);
@@ -18,6 +19,7 @@ export default function Workout() {
   };
 
   useEffect(() => {
+    // waits until submit button on form is clicked (validated) before calling functions
     if (validated) {
       const exercises = data?.exercises || [];
       const filteredWorkout = filterWorkout(workout, exercises);
@@ -79,12 +81,11 @@ export default function Workout() {
   // shuffles through new array and slices so results are different each time
   function randomizeExercises(customExercises, count) {
     if (!customExercises || customExercises.length === 0) {
-      // Handle the case where exercises is undefined or empty
       return [];
     } else {
-      // Shuffle the array
+      // shuffle the array
       const shuffledExercises = customExercises.sort(() => Math.random() - 0.5);
-      // Return a certain amount of results
+      // return a certain amount of results
       return shuffledExercises.slice(0, count);
     }
   }
