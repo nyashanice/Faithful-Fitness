@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import FormChoices from "../components/Form";
 import { useQuery } from "@apollo/client";
 import { QUERY_EXERCISES } from "../utils/queries";
@@ -7,17 +7,25 @@ export default function Workout() {
   const [workout, setWorkout] = useState();
   const [equipment, setEquipment] = useState();
   const [validated, setValidated] = useState(false);
+  const [customWorkoutArr, setCustomWorkoutArr] = useState([]);
   const { data } = useQuery(QUERY_EXERCISES);
-  const exercises = data?.exercises || [];
 
   const handleFormSubmit = (submittedData) => {
-    // Perform additional logic using the form submission data
-    // For example: update state, make an API call, etc.
     setWorkout(submittedData.workout);
     setEquipment(submittedData.equipment);
     console.log(workout, equipment);
     setValidated(true);
   };
+
+  useEffect(() => {
+    if (validated) {
+      const exercises = data?.exercises || [];
+      const filteredWorkout = filterWorkout(workout, exercises);
+      const filteredEquipment = filterEquipment(filteredWorkout, equipment);
+      const customWorkout = randomizeExercises(filteredEquipment, 5);
+      setCustomWorkoutArr(customWorkout);
+    }
+  }, [validated, workout, equipment, data]);
 
   // filters through database of exercises to find those that match the selected category
   const filterWorkout = (chosenWorkout, exercises) => {
@@ -45,10 +53,8 @@ export default function Workout() {
     } else if (chosenWorkout === "Glutes") {
       return exercises.filter((exercise) => exercise.muscle === "glutes");
     }
+    return [];
   };
-
-  // const workoutCategory = filterWorkout(chosenWorkout, exercises);
-  // console.log(workoutCategory);
 
   // filters through new array of exercises to find those that use the correct equipment
   const filterEquipment = (workoutCategory, chosenEquipment) => {
@@ -67,28 +73,21 @@ export default function Workout() {
         (exercise) => exercise.equipment === "Bodyweight"
       );
     }
+    return [];
   };
 
-  // const workoutEquipment = filterEquipment(workoutCategory, chosenEquipment);
-  // console.log(workoutEquipment);
-
   // shuffles through new array and slices so results are different each time
-  function randomizeExercises(workoutEquipment, count) {
-    if (!workoutEquipment || workoutEquipment.length === 0) {
+  function randomizeExercises(customExercises, count) {
+    if (!customExercises || customExercises.length === 0) {
       // Handle the case where exercises is undefined or empty
       return [];
     } else {
       // Shuffle the array
-      const shuffledExercises = workoutEquipment.sort(
-        () => Math.random() - 0.5
-      );
+      const shuffledExercises = customExercises.sort(() => Math.random() - 0.5);
       // Return a certain amount of results
       return shuffledExercises.slice(0, count);
     }
   }
-
-  // const customWorkoutArr = randomizeExercises(workoutEquipment, 5);
-  // console.log(customWorkoutArr);
 
   return (
     <div>
@@ -102,11 +101,11 @@ export default function Workout() {
       />
       <div>
         <h1 className="text-center">Custom Workout</h1>
-        {/* <ul>
+        <ul>
           {customWorkoutArr.map((exercise) => (
             <li key={exercise.title}>{exercise.title}</li>
           ))}
-        </ul> */}
+        </ul>
       </div>
     </div>
   );
