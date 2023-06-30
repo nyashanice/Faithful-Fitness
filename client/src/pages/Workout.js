@@ -115,18 +115,12 @@ export default function Workout() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
             {customWorkoutArr.map((exercise, index) => (
               <tr
                 key={`${exercise.title}-${exercise.sets}-${exercise.reps}-${index}`}
               >
-                <td></td>
-                <td >{exercise.title}</td>
+                <td>{index + 1}</td>
+                <td>{exercise.title}</td>
                 <td>{exercise.sets}</td>
                 <td>{exercise.reps}</td>
               </tr>
