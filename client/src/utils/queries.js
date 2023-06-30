@@ -7,6 +7,9 @@ export const QUERY_EXERCISES = gql`
       title
       muscle
       equipment
+      instructions
+      sets
+      reps
     }
   }
 `;

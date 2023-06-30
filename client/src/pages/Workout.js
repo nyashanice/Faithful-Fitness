@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import FormChoices from "../components/Form";
 import { useQuery } from "@apollo/client";
 import { QUERY_EXERCISES } from "../utils/queries";
+import Table from "react-bootstrap/Table";
 
 export default function Workout() {
   const [workout, setWorkout] = useState();
@@ -26,6 +27,7 @@ export default function Workout() {
       const filteredEquipment = filterEquipment(filteredWorkout, equipment);
       const customWorkout = randomizeExercises(filteredEquipment, 5);
       setCustomWorkoutArr(customWorkout);
+      console.log(customWorkout);
     }
   }, [validated, workout, equipment, data]);
 
@@ -102,11 +104,35 @@ export default function Workout() {
       />
       <div>
         <h1 className="text-center">Custom Workout</h1>
-        <ul>
-          {customWorkoutArr.map((exercise) => (
-            <li key={exercise.title}>{exercise.title}</li>
-          ))}
-        </ul>
+
+        <Table striped bordered hover variant="dark">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Exercise</th>
+              <th>Sets</th>
+              <th>Reps</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            {customWorkoutArr.map((exercise, index) => (
+              <tr
+                key={`${exercise.title}-${exercise.sets}-${exercise.reps}-${index}`}
+              >
+                <td></td>
+                <td >{exercise.title}</td>
+                <td>{exercise.sets}</td>
+                <td>{exercise.reps}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
       </div>
     </div>
   );

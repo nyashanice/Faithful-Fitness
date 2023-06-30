@@ -110,7 +110,7 @@ export default function FormChoices({
               onChange={(e) => setEquipment(e.target.value)}
             />
           </Form.Group>
-          <div className="text-center">
+          <div className="text-center m-2">
             <Button type="submit">Generate Workout</Button>
           </div>
         </Form>
