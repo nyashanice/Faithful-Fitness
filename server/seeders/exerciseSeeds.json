@@ -1,6 +1,6 @@
 [
   {
-    "title": "Back extension",
+    "title": "Glute extension",
     "muscle": "glutes",
     "equipment": "Equipment",
     "link": "https://www.tiktok.com/t/ZT8eq7XXA/"
@@ -12,16 +12,76 @@
     "link": "https://www.tiktok.com/t/ZT8eqvvk4/"
   },
   {
+    "title": "Hip thrusts",
+    "muscle": "glutes",
+    "equipment": "Equipment",
+    "link": "https://www.tiktok.com/t/ZT8ebXbjC/"
+  },
+  {
+    "title": "DB hip thrusts",
+    "muscle": "glutes",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8ebx7Eu/"
+  },
+  {
+    "title": "Single leg hip thrusts",
+    "muscle": "glutes",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8ebQk4C/"
+  },
+  {
+    "title": "Sumo squats",
+    "muscle": "glutes",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8ebt2Vt/"
+  },
+  {
+    "title": "Cable kickbacks",
+    "muscle": "glutes",
+    "equipment": "Equipment",
+    "link": "https://www.tiktok.com/t/ZT8ebwaNr/"
+  },
+  {
     "title": "RDLs (glute biased)",
     "muscle": "glutes",
     "equipment": "Dumbbell only",
     "link": "https://www.tiktok.com/t/ZT8eqEApW/"
   },
   {
+    "title": "Back squats",
+    "muscle": "glutes",
+    "equipment": "Equipment",
+    "link": "https://www.tiktok.com/t/ZT8ebQgAy/"
+  },
+  {
     "title": "Step ups (glute biased)",
     "muscle": "glutes",
     "equipment": "Dumbbell only",
     "link": "https://www.tiktok.com/t/ZT8eqbq72/"
+  },
+  {
+    "title": "Kneeling squat",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egevks/"
+  },
+  {
+    "title": "Kickbacks",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8eged1H/"
+  },
+  {
+    "title": "Fire hydrants",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egYY7D/"
+  },
+  {
+    "title": "Jump squats",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egfmcT/"
   },
   {
     "title": "Gorilla rows",
@@ -83,6 +143,12 @@
     "equipment": "Equipment",
     "link": "https://www.tiktok.com/t/ZT8ebmFyF/"
   },
+    {
+    "title": "Good mornings",
+    "muscle": "hamstrings",
+    "equipment": "Equipment",
+    "link": "https://www.tiktok.com/t/ZT8egUhAK/"
+  },
   {
     "title": "Front squats",
     "muscle": "quads",
@@ -98,8 +164,26 @@
   {
     "title": "Elevated goblet squats",
     "muscle": "quads",
-    "equipment": "Equipment",
+    "equipment": "Dumbbell only",
     "link": "https://www.tiktok.com/t/ZT8ebutmh/"
+  },
+  {
+    "title": "Squat pulses",
+    "muscle": "quads",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8egBmus/"
+  },
+  {
+    "title": "Bulgarian split squats (quad biased)",
+    "muscle": "quads",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8egeVvD/"
+  },
+  {
+    "title": "Pause squats",
+    "muscle": "quads",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8egSYVu/"
   },
   {
     "title": "Front lunges",
@@ -130,6 +214,54 @@
     "muscle": "glutes",
     "equipment": "Bodyweight",
     "link": "https://www.tiktok.com/t/ZT8ebFfhC/"
+  },
+  {
+    "title": "Reverse lunges",
+    "muscle": "glutes",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egrspN/"
+  },
+  {
+    "title": "Close stance split squats",
+    "muscle": "quads",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egN1Ho/"
+  },
+  {
+    "title": "Elevated heels goblet squats",
+    "muscle": "quads",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egrMsT/"
+  },
+  {
+    "title": "Wall sit",
+    "muscle": "quads",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egUNCh/"
+  },
+  {
+    "title": "Heel bridges",
+    "muscle": "hamstrings",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egSwYR/"
+  },
+  {
+    "title": "Heel bridge walk outs",
+    "muscle": "hamstrings",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egRrgs/"
+  },
+  {
+    "title": "Single leg hamstring bridge",
+    "muscle": "hamstrings",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egkUwM/"
+  },
+  {
+    "title": "Towel leg curls",
+    "muscle": "hamstrings",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8egRfjR/"
   },
   {
     "title": "BB bent over row",
