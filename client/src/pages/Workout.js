@@ -5,6 +5,7 @@ import { QUERY_EXERCISES } from "../utils/queries";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 import "../styles/Workout.css";
+import Playlist from "../components/Playlist";
 
 export default function Workout() {
   const [workout, setWorkout] = useState();
@@ -133,6 +134,10 @@ export default function Workout() {
             ))}
           </tbody>
         </Table>
+      </div>
+      <div>
+        <h1 className="workout-header text-center">Gym Playlist</h1>
+        <Playlist />
       </div>
     </div>
   );

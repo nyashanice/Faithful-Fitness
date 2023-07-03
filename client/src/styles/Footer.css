@@ -1,3 +1,8 @@
 .footer-bg {
     background-color: #5D2EFF;
 }
+
+.footer-link {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}

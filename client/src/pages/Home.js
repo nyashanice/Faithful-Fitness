@@ -18,7 +18,8 @@ export default function Home() {
           <img src="/images/gym3.jpg" alt="" className="home-img" />
         </div>
         <div className="overlay">
-          Embrace the Journey,<br/> Unleash Your Strength
+          Embrace the Journey,
+          <br /> Unleash Your Strength
         </div>
       </div>
       <div>
@@ -63,15 +64,15 @@ export default function Home() {
           </div>
           <div></div>
         </div>
-        </div>
-        <div className="text-center home-btn" style={styles.button}>
-          <Link to="/workout">
-            <div className="home-btn-txt">
-              GET <br />
-              STARTED
-            </div>
-          </Link>
-        </div>
+      </div>
+      <div className="text-center home-btn" style={styles.button}>
+        <Link to="/workout">
+          <div className="home-btn-txt">
+            GET <br />
+            STARTED
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }

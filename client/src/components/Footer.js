@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="footer-bg p-3 text-center">
-      <Link to="/disclaimer">Disclaimer</Link>
+    <div className="footer-bg p-3 text-center mt-1">
+      <Link to="/disclaimer" className="footer-link">Disclaimer</Link>
     </div>
   );
 }
