@@ -5,8 +5,8 @@
 
 .banner-container {
     position: relative;
-        text-align: center;
-        color: white;
+    text-align: center;
+    color: white;
 }
 
 .overlay {
@@ -34,13 +34,13 @@
 }
 
 .home-btn {
-display: block;
-height: 100px;
-background-color: white;
-background-size: 200px;
-background-repeat: no-repeat;
-background-position: center;
-position: relative;
+    display: block;
+    height: 100px;
+    background-color: white;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
 .home-btn-txt {

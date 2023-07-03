@@ -1,0 +1,15 @@
+.workout-header {
+    font-family: 'Bungee Inline', cursive;
+}
+
+.table-header {
+    font-family: 'DM Serif Display', serif;
+}
+
+.table-txt {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.workout-table {
+    background-color: #5D2EFF !important;
+}

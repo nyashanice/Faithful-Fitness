@@ -4,6 +4,7 @@ import { useQuery } from "@apollo/client";
 import { QUERY_EXERCISES } from "../utils/queries";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
+import "../styles/Workout.css";
 
 export default function Workout() {
   const [workout, setWorkout] = useState();
@@ -104,17 +105,17 @@ export default function Workout() {
         setEquipment={setEquipment}
       />
       <div>
-        <h1 className="text-center">Custom Workout</h1>
+        <h1 className="text-center workout-header">Custom Workout</h1>
 
-        <Table striped bordered hover variant="dark">
-          <thead>
+        <Table className="workout-table" bordered hover>
+          <thead className="table-header">
             <tr>
               <th></th>
               <th>Exercise</th>
               <th>Video</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="table-txt">
             {customWorkoutArr.map((exercise, index) => (
               <tr key={`${exercise.title}-${exercise.link}-${index}`}>
                 <td>{index + 1}</td>
