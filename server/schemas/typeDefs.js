@@ -6,9 +6,7 @@ const typeDefs = gql`
     title: String!
     muscle: String!
     equipment: String!
-    instructions: [String]!
-    sets: Int!
-    reps: String!
+    link: String!
   }
 
   type Query {
@@ -21,9 +19,7 @@ const typeDefs = gql`
       title: String!
       muscle: String!
       equipment: String!
-      instructions: [String]!
-      sets: Int!
-      reps: String!
+      link: String!
     ): Exercise
     removeExercise(exerciseId: ID!): Exercise
   }

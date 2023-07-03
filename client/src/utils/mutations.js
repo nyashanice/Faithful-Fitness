@@ -5,25 +5,19 @@ export const ADD_EXERCISE = gql`
     $title: String!
     $muscle: String!
     $equipment: String!
-    $instructions: [String]!
-    $sets: Int!
-    $reps: String!
+    $link: String!
   ) {
     addExercise(
       title: $title
       muscle: $muscle
       equipment: $equipment
-      instructions: $instructions
-      sets: $sets
-      reps: $reps
+      link: $link
     ) {
       _id
       title
       muscle
       equipment
-      instructions
-      sets
-      reps
+      link
     }
   }
 `;

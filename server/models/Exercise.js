@@ -14,17 +14,7 @@ const exerciseSchema = new Schema({
     type: String,
     required: true,
   },
-  instructions: {
-    // array of strings
-    type: [String],
-    required: true,
-    trim: true,
-  },
-  sets: {
-    type: Number,
-    required: true,
-  },
-  reps: {
+  link: {
     type: String,
     required: true,
   },

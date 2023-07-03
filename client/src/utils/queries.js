@@ -7,9 +7,7 @@ export const QUERY_EXERCISES = gql`
       title
       muscle
       equipment
-      instructions
-      sets
-      reps
+      link
     }
   }
 `;
@@ -21,9 +19,7 @@ export const QUERY_SINGLE_EXERCISE = gql`
       title
       muscle
       equipment
-      instructions
-      sets
-      reps
+      link
     }
   }
 `;
