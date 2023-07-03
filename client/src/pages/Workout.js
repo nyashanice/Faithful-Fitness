@@ -3,6 +3,7 @@ import FormChoices from "../components/Form";
 import { useQuery } from "@apollo/client";
 import { QUERY_EXERCISES } from "../utils/queries";
 import Table from "react-bootstrap/Table";
+import { Link } from "react-router-dom";
 
 export default function Workout() {
   const [workout, setWorkout] = useState();
@@ -110,19 +111,23 @@ export default function Workout() {
             <tr>
               <th></th>
               <th>Exercise</th>
-              <th>Sets</th>
-              <th>Reps</th>
+              <th>Video</th>
             </tr>
           </thead>
           <tbody>
             {customWorkoutArr.map((exercise, index) => (
-              <tr
-                key={`${exercise.title}-${exercise.sets}-${exercise.reps}-${index}`}
-              >
+              <tr key={`${exercise.title}-${exercise.link}-${index}`}>
                 <td>{index + 1}</td>
                 <td>{exercise.title}</td>
-                <td>{exercise.sets}</td>
-                <td>{exercise.reps}</td>
+                <td>
+                  <Link
+                    to={exercise.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Link
+                  </Link>
+                </td>
               </tr>
             ))}
           </tbody>
