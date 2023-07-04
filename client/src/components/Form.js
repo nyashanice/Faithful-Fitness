@@ -30,7 +30,7 @@ export default function FormChoices({
 
   return (
     <div>
-      <div className="d-flex flex-row flex-wrap p-2">
+      <div className="d-flex flex-row flex-wrap p-2 justify-content-center">
         <Form validated={validated} onSubmit={handleSubmit}>
           <div className="p-2 text-center">
             <div className="form-title">Step 1</div>

@@ -15,7 +15,13 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.workout-table {
-    background-color: #5D2EFF !important;
+.video-link {
+    color: #5D2EFF !important;
 }
 
+@media screen and (min-width: 992px) {
+    .workout-table {
+        width: 80% !important;
+        margin: auto;
+    }
+}

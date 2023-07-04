@@ -116,7 +116,7 @@ export default function Workout() {
       <div>
         <h1 className="text-center workout-header">Custom Workout</h1>
 
-        <Table className="workout-table" bordered hover>
+        <Table className="workout-table" bordered hover >
           <thead className="table-header">
             <tr>
               <th></th>
@@ -134,6 +134,7 @@ export default function Workout() {
                     to={exercise.link}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="video-link"
                   >
                     Link
                   </Link>
@@ -143,8 +144,12 @@ export default function Workout() {
           </tbody>
         </Table>
       </div>
-      <div>
-        <h1 className="workout-header text-center">Gym Playlist</h1>
+      <div className="text-center">
+        <h1 className="workout-header">Gym Playlist</h1>
+        <h6 className="p-2 table-txt">
+          If you like hip-hop/rap music when working out, check out this
+          playlist!
+        </h6>
         <Playlist />
       </div>
     </div>
