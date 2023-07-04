@@ -108,16 +108,58 @@
     "link": "https://www.tiktok.com/t/ZT8ebeFVn/"
   },
   {
+    "title": "Shoulder taps",
+    "muscle": "shoulders",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etA1XP/"
+  },
+  {
+    "title": "Planche lean",
+    "muscle": "shoulders",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etm9DV/"
+  },
+  {
+    "title": "Pike push ups",
+    "muscle": "shoulders",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etfjHs/"
+  },
+  {
     "title": "Tricep dips",
     "muscle": "triceps",
     "equipment": "Equipment",
     "link": "https://www.tiktok.com/t/ZT8eqcVUF/"
   },
   {
+    "title": "Cable tricep push downs",
+    "muscle": "triceps",
+    "equipment": "Equipment",
+    "link": "https://www.tiktok.com/t/ZT8etYx6a/"
+  },
+  {
     "title": "Overhead tricep extensions",
     "muscle": "triceps",
     "equipment": "Dumbbell only",
     "link": "https://www.tiktok.com/t/ZT8ebReY5/"
+  },
+  {
+    "title": "Skull crushers",
+    "muscle": "triceps",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8etyD4J/"
+  },
+  {
+    "title": "Tricep press",
+    "muscle": "triceps",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8et5hTP/"
+  },
+  {
+    "title": "Tricep kickbacks",
+    "muscle": "triceps",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8etuYKm/"
   },
   {
     "title": "Pull downs",
@@ -132,6 +174,24 @@
     "link": "https://www.tiktok.com/t/ZT8ebP9gc/"
   },
   {
+    "title": "Bag curls",
+    "muscle": "biceps",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8et5hVs/"
+  },
+  {
+    "title": "Bag preacher curls",
+    "muscle": "biceps",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etF6Pf/"
+  },
+  {
+    "title": "Reverse lunges (hamstring biased)",
+    "muscle": "hamstrings",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8etBETF/"
+  },
+  {
     "title": "RDLs (hamstring biased)",
     "muscle": "hamstrings",
     "equipment": "Dumbbell only",
@@ -143,7 +203,7 @@
     "equipment": "Equipment",
     "link": "https://www.tiktok.com/t/ZT8ebmFyF/"
   },
-    {
+  {
     "title": "Good mornings",
     "muscle": "hamstrings",
     "equipment": "Equipment",
@@ -294,6 +354,42 @@
     "link": "https://www.tiktok.com/t/ZT8ebPr75/"
   },
   {
+    "title": "Underhand row",
+    "muscle": "back",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8etkN6v/"
+  },
+  {
+    "title": "Reverse flys",
+    "muscle": "back",
+    "equipment": "Dumbbell only",
+    "link": "https://www.tiktok.com/t/ZT8etS4bh/"
+  },
+  {
+    "title": "Superman",
+    "muscle": "back",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8et9Kxf/"
+  },
+  {
+    "title": "Aquaman",
+    "muscle": "back",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8et2179/"
+  },
+  {
+    "title": "Lat pull downs",
+    "muscle": "back",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etBtmx/"
+  },
+  {
+    "title": "Kneeling rows",
+    "muscle": "back",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8et24gD/"
+  },
+  {
     "title": "Cable curl",
     "muscle": "biceps",
     "equipment": "Equipment",
@@ -324,10 +420,10 @@
     "link": "https://www.tiktok.com/t/ZT8ebMPu7/"
   },
   {
-    "title": "Push ups",
+    "title": "Close grip push ups",
     "muscle": "triceps",
     "equipment": "Bodyweight",
-    "link": "https://www.tiktok.com/t/ZT8ebYjrY/"
+    "link": "https://www.tiktok.com/t/ZT8etHLt7/"
   },
   {
     "title": "Barbell bench press",
@@ -358,6 +454,24 @@
     "muscle": "chest",
     "equipment": "Equipment",
     "link": "https://www.tiktok.com/t/ZT8ebAsqf/"
+  },
+  {
+    "title": "Incline push ups",
+    "muscle": "chest",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etYJmt/"
+  },
+  {
+    "title": "Wide push ups",
+    "muscle": "chest",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etfpHV/"
+  },
+  {
+    "title": "Decline push ups",
+    "muscle": "chest",
+    "equipment": "Bodyweight",
+    "link": "https://www.tiktok.com/t/ZT8etr9Te/"
   },
   {
     "title": "Seated barbell shoulder press",

@@ -16,6 +16,7 @@ export default function FormChoices({
     event.stopPropagation();
     if (!workout || !equipment) {
       console.log("Must answer both questions.");
+      // add pop up for user
       return;
     }
 
