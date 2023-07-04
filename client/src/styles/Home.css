@@ -33,6 +33,14 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.home-video {
+    width: 80%;
+}
+
+.flex {
+    width: 100%;
+}
+
 .home-btn {
     display: block;
     height: 100px;
