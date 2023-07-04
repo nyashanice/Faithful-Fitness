@@ -64,3 +64,17 @@
 .home-btn-txt:hover {
     font-size: 80%;
 }
+
+.use-container {
+    flex-wrap: wrap;
+}
+
+.use-container-2 {
+    flex-wrap: wrap-reverse;
+}
+
+@media screen and (min-width: 992px) {
+ .use-container {
+    flex-wrap: nowrap;
+ }
+}

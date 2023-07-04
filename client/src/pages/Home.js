@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div>
         <h2 className="text-center home-header">How to use</h2>
-        <div className="d-flex flex-row p-2">
+        <div className="use-container d-flex flex-row p-2">
           <div className="d-flex flex-row align-items-center flex p-2">
             <div className="home-num">1</div>
             <div className="home-steps">
@@ -39,7 +39,7 @@ export default function Home() {
             </video>
           </div>
         </div>
-        <div className="d-flex flex-row p-2">
+        <div className="use-container-2 d-flex flex-row p-2">
           <div className="text-center">
             <video autoPlay loop muted playsInline className="home-video">
               <source src="/images/question2.mp4" />
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="home-num">2</div>
           </div>
         </div>
-        <div className="d-flex flex-row p-2">
+        <div className="use-container d-flex flex-row p-2">
           <div className="d-flex flex-row align-items-center flex p-2">
             <div className="home-num">3</div>
             <div className="home-steps">
