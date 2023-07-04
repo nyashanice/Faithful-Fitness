@@ -73,8 +73,23 @@
     flex-wrap: wrap-reverse;
 }
 
+.large-video {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-video {
+        display: none;
+    }
+
+    .large-video {
+        display: inline;
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 992px) {
- .use-container {
+ .use-container, .use-container-2 {
     flex-wrap: nowrap;
  }
 }

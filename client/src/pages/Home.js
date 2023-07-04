@@ -34,14 +34,20 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center">
-            <video autoPlay loop muted playsInline className="home-video">
+            <video autoPlay loop muted playsInline className="home-video mobile-video">
+              <source src="/images/m-question1.mp4" />
+            </video>
+            <video autoPlay loop muted className="large-video">
               <source src="/images/question1.mp4" />
             </video>
           </div>
         </div>
         <div className="use-container-2 d-flex flex-row p-2">
           <div className="text-center">
-            <video autoPlay loop muted playsInline className="home-video">
+            <video autoPlay loop muted playsInline className="home-video mobile-video">
+              <source src="/images/m-question2.mp4" />
+            </video>
+            <video autoPlay loop muted className="large-video">
               <source src="/images/question2.mp4" />
             </video>
           </div>
@@ -61,7 +67,10 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center">
-            <video autoPlay loop muted playsInline className="home-video">
+            <video autoPlay loop muted playsInline className="home-video mobile-video">
+              <source src="/images/m-generated-workout.mp4" />
+            </video>
+            <video autoPlay loop muted className="large-video">
               <source src="/images/generated-workout.mp4" />
             </video>
           </div>
