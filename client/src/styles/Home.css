@@ -86,10 +86,16 @@
         display: inline;
         width: 100%;
     }
+    .overlay {
+       font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 992px) {
  .use-container, .use-container-2 {
     flex-wrap: nowrap;
+ }
+ .overlay {
+    font-size: 60px;
  }
 }
