@@ -1,0 +1,13 @@
+.form-title {
+    font-family: 'DM Serif Display', serif;
+}
+
+.form-txt {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form-btn {
+    color: white;
+    font-family: 'Bungee Inline', cursive !important;
+    background-color: #5D2EFF !important;
+}

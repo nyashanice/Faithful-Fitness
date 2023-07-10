@@ -1,0 +1,27 @@
+.workout-scripture {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.workout-header {
+    font-family: 'Bungee Inline', cursive;
+}
+
+.table-header {
+    font-family: 'DM Serif Display', serif;
+}
+
+.table-txt {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.video-link {
+    color: #5D2EFF !important;
+}
+
+@media screen and (min-width: 992px) {
+    .workout-table {
+        width: 80% !important;
+        margin: auto;
+    }
+}

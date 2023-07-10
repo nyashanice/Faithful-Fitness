@@ -1,0 +1,101 @@
+.home-img {
+    width: 33.33%;
+    filter: grayscale(100%);
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5D2EFF;
+    font-family: 'Bungee Inline', cursive;
+    width: 100%;
+    text-shadow:2px 2px black;
+}
+
+.home-header {
+    font-family: 'DM Serif Display', serif;
+}
+
+.home-num {
+    font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home-steps {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home-video {
+    width: 80%;
+}
+
+.flex {
+    width: 100%;
+}
+
+.home-btn {
+    display: block;
+    height: 100px;
+    background-color: white;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.home-btn-txt {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow: 2px 2px black;
+}
+
+.home-btn-txt:hover {
+    font-size: 80%;
+}
+
+.use-container {
+    flex-wrap: wrap;
+}
+
+.use-container-2 {
+    flex-wrap: wrap-reverse;
+}
+
+.large-video {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-video {
+        display: none;
+    }
+
+    .large-video {
+        display: inline;
+        width: 100%;
+    }
+    .overlay {
+       font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+ .use-container, .use-container-2 {
+    flex-wrap: nowrap;
+ }
+ .overlay {
+    font-size: 60px;
+ }
+}
