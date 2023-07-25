@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  BrowserRouter,
 } from "react-router-dom";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Header from "./components/Header";
@@ -21,7 +20,6 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <BrowserRouter basename="/Faithful-Fitness">
       <ApolloProvider client={client}>
         <Router>
           <div>
@@ -37,7 +35,6 @@ function App() {
           </div>
         </Router>
       </ApolloProvider>
-    </BrowserRouter>
   );
 }
 
