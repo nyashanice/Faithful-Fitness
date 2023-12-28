@@ -6,6 +6,9 @@ Faithful Fitness provides users with a quick and simple way to generate a workou
 
 Working out just got a whole lot easier to prepare for!
 
+<img src="/client/public/images/Faithful-Fitness2.png/" alt="Homepage"/>
+<img src="/client/public/images/Faithful-Fitness1.png/" alt="Workout generation page"/>
+
 ## Usage
 
-View the demo video <a href="/client/public/images/Faithul-Fitness-Video.mp4">here</a>!
+View the demo video <a href="https://drive.google.com/file/d/14DEFFxT2PCx6LW8pnwVUNceorf6FgXQL/view">here</a>!
